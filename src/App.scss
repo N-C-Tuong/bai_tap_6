@@ -1,0 +1,29 @@
+.App {
+  padding: 10px 50px;
+  background: url(./assets/images/background.jfif) no-repeat;
+  background-size: cover;
+
+  &__title {
+    text-transform: capitalize;
+    color: white;
+  }
+
+  .rating {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+
+    /* Card */
+    
+  }
+}
+
+.btn {
+  padding: 10px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,64 @@
+/* Card */
+.card {
+    width: 30%;
+    flex: 1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid white;
+    box-shadow: 3px 3px white;
+
+    &-head {
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: center;
+
+        &__title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        &__btn {
+            width: 2rem;
+            height: 2rem;
+            margin-left: 5px;
+            background-color: purple;
+            border-radius: 50%;
+            display: flex;
+
+            .btn-play {
+                color: white;
+                position: relative;
+                bottom: 2px;
+                left: 1px;
+            }
+        }
+
+    }
+
+    &-body {
+        padding: 0;
+    }
+
+    &-btn {
+        width: 100%;
+        padding-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .btn-card {
+            padding: 10px 30px;
+            background: transparent;
+            border: 1px solid white;
+            border-radius: 50px;
+            color: white;
+
+            &:hover {
+                background-color: purple;
+            }
+        }
+    }
+}
